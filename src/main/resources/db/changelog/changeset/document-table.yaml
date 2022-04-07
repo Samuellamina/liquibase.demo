@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-document-table
+      author: Samuel
+      changes:
+        - createTable:
+            tableName: document
+            columns:
+              - column:
+                  name: customer_id
+                  type: varchar(255)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: document_url
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
