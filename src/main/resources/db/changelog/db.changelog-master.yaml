@@ -1,5 +1,0 @@
-databaseChangeLog:
-  - include:
-      file: db/changelog/changeset/document-table.yaml
-  - include:
-      file: db/changelog/changeset/person-table.yaml
